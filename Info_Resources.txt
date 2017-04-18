@@ -1,0 +1,16 @@
+Web Design Resources
+
+•	Treehouse Forum - Get help with code challenges, projects, and more - https://teamtreehouse.com/forum
+•	W3C - Standards group for web languages - https://www.w3.org/
+•	Treehouse Blog - The official blog for Treehouse - http://blog.teamtreehouse.com/
+•	CSS-Tricks - A blog about CSS - https://css-tricks.com/
+•	Web Community Twitter List - List of important web industry leaders to follow on Twitter. - https://twitter.com/nickrp/lists/web-community
+•	GitHub - Share your code with Git. - https://github.com
+•	CodePen - Share small HTML, CSS, and JavaScript projects - http://codepen.io/
+•	Dribbble - Share shots of your design work - https://dribbble.com/
+
+CSS Resources
+
+•	Mozilla Developer Network (MDN) - https://developer.mozilla.org/en-US/
+•	WebPlatform.org
+•	Can I Use - https://caniuse.com/
