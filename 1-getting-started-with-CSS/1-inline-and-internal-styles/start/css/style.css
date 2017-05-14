@@ -1,11 +1,8 @@
+/* Type Selectors */
 
 body {
 	color: #878787;
 	margin: 0;
-}
-
-.main-header {
-	background-color: orange;
 }
 
 h1 {
@@ -22,12 +19,54 @@ h3 {
 	color: #48525c;
 }
 
-.primary-content {
-	text-align: center;
-}
+/* ID Selectors */
 
 #main-footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: solid 10px orange;
 }
+
+/* Class Selectors */
+
+.main-header {
+	background-color: orange;
+}
+
+.title {
+	color: white;
+	font-size: 26px;
+}
+
+.primary-content {
+	text-align: center;
+}
+
+.t-border {
+	border-top: 2px solid lightgrey;
+}
+
+a:link {
+	color: orange;
+}
+
+a:visited {
+	color: lightblue;
+}
+
+a:hover {
+	color:forestgreen;
+}
+
+a:active {
+	color: lightcoral;
+}
+
+a:focus {
+	color: white;
+	background-color: orange;
+}
+
+
+
+
