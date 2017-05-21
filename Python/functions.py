@@ -56,6 +56,15 @@ def even_odd(number):
 
 
 
+def squared(item):
+    try:
+        int(item)
+    except:
+        return item * len(item)
+    else:
+        return int(item) ** 2
+
+
 
 
 
