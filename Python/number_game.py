@@ -23,9 +23,14 @@ def game():
 				print("You got it! My number was {}".format(secret_num))
 				break
 #print hit/miss
+			elif guess < secret_num:
+				print("My number is higher than {}".format(guess))
 			else:
-				print("That's not it")
+				print("My number is lower than {}".format(guess))
 			guesses.append(guess)
 	else:
 		print("You didn't get it. My number was {}".format(secret_num))
+	play_again = input("Do you want to play again? Y/n: ")
+
+
 game()
