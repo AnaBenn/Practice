@@ -1,4 +1,4 @@
-"""def hows_the_parrot():
+def hows_the_parrot():
 	print("He's pining for the fjords!")
 
 hows_the_parrot()
@@ -86,10 +86,65 @@ while True:
     print("Largest Fibonacci Number smaller than x: " + str(lub))
     print("Smallest Fibonacci Number larger than x: " + str(sup))
 
+#Elif example
+
+name = 'Dracula'
+age = 4000
+if name == 'Alice':
+    print('Hi, Alice.')
+elif age < 12:
+    print('You are not Alice, kiddo.')
+elif age > 2000:
+    print('Unlike you, Alice is not an undead, immortal vampire.')
+elif age > 100:
+    print('You are not Alice, grannie.')
+
+#Elif example 2
+
+name = 'Dracula'
+age = 4000
+if name == 'Alice':
+    print('Hi, Alice.')
+elif age < 12:
+    print('You are not Alice, kiddo.')
+elif age > 100:
+    print('You are not Alice, grannie.')
+elif age > 2000:
+    print('Unlike you, Alice is not an undead, immortal vampire.')
+
+#These statements are similar—both if and while check the value of spam, 
+#and if it’s less than five, they print a message. But when you run 
+#these two code snippets, something very different happens for each one. 
+#For the if statement, the output is simply "Hello, world.". 
+
+#If Statement
+
+spam = 0
+if spam < 5:
+    print('Hello, world.')
+    spam = spam + 1
+
+#while statement - keep incremeting by one and going back to check if
+#spam is less than 5. Once it's greater than 5, it stops printing.
+
+#The code with the if statement checks the condition, and it prints 
+#Hello, world. only once if that condition is true. The code with the 
+#while loop, on the other hand, will print it five times. It stops 
+#after five prints because the integer in spam is incremented by one 
+#at the end of each loop iteration, which means that the loop will 
+#execute five times before spam < 5 is False.
+
+#In the while loop, the condition is always checked at the start of 
+#each iteration (that is, each time the loop is executed). If the 
+#condition is True, then the clause is executed, and afterward, 
+#the condition is checked again. The first time the condition is 
+#found to be False, the while clause is skipped.
 
 
 
-
-
+spam = 0
+while spam < 5:
+    print('Hello, world.')
+    spam = spam + 1
 
 
